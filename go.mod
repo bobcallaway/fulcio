@@ -3,8 +3,8 @@ module github.com/sigstore/fulcio
 go 1.16
 
 require (
-	cloud.google.com/go v0.86.0
-	github.com/ThalesIgnite/crypto11 v1.2.4 // indirect
+	cloud.google.com/go v0.89.0
+	github.com/ThalesIgnite/crypto11 v1.2.4
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/coreos/go-oidc/v3 v3.0.0
 	github.com/go-chi/chi v4.1.2+incompatible
@@ -30,6 +30,6 @@ require (
 	go.uber.org/zap v1.18.1
 	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect
 	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
-	google.golang.org/genproto v0.0.0-20210701133433-6b8dcf568a95
+	google.golang.org/genproto v0.0.0-20210728212813-7823e685a01f
 	google.golang.org/protobuf v1.27.1
 )
