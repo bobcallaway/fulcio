@@ -4,13 +4,13 @@ go 1.16
 
 require (
 	cloud.google.com/go v0.86.0
-	github.com/ThalesIgnite/crypto11 v1.2.4 // indirect
+	github.com/ThalesIgnite/crypto11 v1.2.4
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/coreos/go-oidc/v3 v3.0.0
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-openapi/errors v0.20.0
 	github.com/go-openapi/loads v0.20.2
-	github.com/go-openapi/runtime v0.19.29
+	github.com/go-openapi/runtime v0.19.30
 	github.com/go-openapi/spec v0.20.3
 	github.com/go-openapi/strfmt v0.20.1
 	github.com/go-openapi/swag v0.19.15
