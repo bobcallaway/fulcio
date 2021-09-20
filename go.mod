@@ -22,25 +22,23 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/miekg/pkcs11 v1.0.3 // indirect
-	github.com/mitchellh/mapstructure v1.4.1
+	github.com/mitchellh/mapstructure v1.4.2
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/common v0.29.0 // indirect
 	github.com/prometheus/procfs v0.7.0 // indirect
 	github.com/rs/cors v1.8.0
-	github.com/smartystreets/assertions v1.2.0 // indirect
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.8.1
+	github.com/spf13/viper v1.9.0
 	github.com/stretchr/testify v1.7.0
 	github.com/tidwall/pretty v1.2.0 // indirect
 	go.mongodb.org/mongo-driver v1.6.0 // indirect
 	go.uber.org/atomic v1.8.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.19.0
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
-	google.golang.org/genproto v0.0.0-20210813162853-db860fec028c
+	google.golang.org/genproto v0.0.0-20210828152312-66f60bf46e71
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
