@@ -26,7 +26,7 @@ require (
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/common v0.29.0 // indirect
 	github.com/prometheus/procfs v0.7.0 // indirect
-	github.com/rs/cors v1.8.0
+	github.com/rs/cors v1.8.2
 	github.com/sigstore/sigstore v1.0.1
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
