@@ -27,11 +27,11 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.12.0
 	github.com/spiffe/go-spiffe/v2 v2.1.1
-	go.step.sm/crypto v0.17.0
+	go.step.sm/crypto v0.20.0
 	go.uber.org/zap v1.21.0
-	google.golang.org/api v0.91.0
+	google.golang.org/api v0.98.0
 	google.golang.org/genproto v0.0.0-20220805133916-01dd62135a58
-	google.golang.org/grpc v1.48.0
+	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -43,10 +43,10 @@ require (
 	cloud.google.com/go/compute v1.7.0 // indirect
 	cloud.google.com/go/iam v0.3.0 // indirect
 	cloud.google.com/go/kms v1.4.0 // indirect
-	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
+	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/Azure/azure-sdk-for-go v66.0.0+incompatible // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
-	github.com/Azure/go-autorest/autorest v0.11.27 // indirect
+	github.com/Azure/go-autorest/autorest v0.11.28 // indirect
 	github.com/Azure/go-autorest/autorest/adal v0.9.18 // indirect
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.11 // indirect
 	github.com/Azure/go-autorest/autorest/azure/cli v0.4.5 // indirect
@@ -59,7 +59,7 @@ require (
 	github.com/ReneKroon/ttlcache/v2 v2.11.0 // indirect
 	github.com/armon/go-metrics v0.3.10 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
-	github.com/aws/aws-sdk-go v1.44.45 // indirect
+	github.com/aws/aws-sdk-go v1.44.111 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.16.6 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.15.12 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.7 // indirect
@@ -101,7 +101,7 @@ require (
 	github.com/google/trillian v1.4.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
-	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.5.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -191,12 +191,12 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	goa.design/goa v2.2.5+incompatible // indirect
-	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
+	golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
-	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e // indirect
-	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c // indirect
+	golang.org/x/net v0.0.0-20220909164309-bea034e7d591 // indirect
+	golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094 // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
-	golang.org/x/sys v0.0.0-20220624220833-87e55d714810 // indirect
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.8-0.20211004125949-5bd84dd9b33b // indirect
 	golang.org/x/time v0.0.0-20220411224347-583f2d630306 // indirect
