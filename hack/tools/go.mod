@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/googleapis/api-linter v1.33.2
+	github.com/googleapis/api-linter v1.36.2
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.0
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.2.0
 	google.golang.org/protobuf v1.28.1
