@@ -25,7 +25,7 @@ jobs:
     name: k8s manifest check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
         with:
           persist-credentials: false
 
@@ -69,7 +69,7 @@ jobs:
       GIT_VERSION: test
 
     steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
         with:
           persist-credentials: false
 
@@ -84,7 +84,7 @@ jobs:
       - uses: ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d # v0.9
 
       - name: Setup Cluster
-        uses: chainguard-dev/actions/setup-kind@abcc11e1cf9073eff6c69e91c49756c1430b094c # v1.5.8
+        uses: chainguard-dev/actions/setup-kind@b479012116eacde7f895586c17b598f7ba0ee700 # v1.5.9
         with:
           k8s-version: 1.31.x
           registry-authority: ${{ env.REGISTRY_NAME }}:${{ env.REGISTRY_PORT }}
@@ -219,4 +219,4 @@ jobs:
 
       - name: Collect diagnostics and upload
         if: ${{ failure() }}
-        uses: chainguard-dev/actions/kind-diag@abcc11e1cf9073eff6c69e91c49756c1430b094c # v1.5.8
+        uses: chainguard-dev/actions/kind-diag@b479012116eacde7f895586c17b598f7ba0ee700 # v1.5.9
